@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8  -*-
 train_sql='select distinct r.cho,r.onstation,r.offstation,r.traffic,r.safety,r.convience,r.mile,' \
           'case when (to_number(substr(r.ontime, 0, 2)) between 6 and 11) then 1 else 0 end as ontime0,' \
           'case when (to_number(substr(r.ontime, 0, 2)) between 12 and 17) then 1 else 0 end as ontime1,' \
