@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-
 a_sql取出特定OD下的列车时刻表，包括车次、停站顺序、停站名
 """
 a_sql='select distinct t.trainno,t.stationorder,t.stopsta ' \
